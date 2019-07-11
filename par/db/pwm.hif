@@ -1,0 +1,73 @@
+Quartus II
+Version 11.0 Build 157 04/27/2011 SJ Full Version
+49
+4327
+OFF
+OFF
+OFF
+ON
+ON
+OFF
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+pwm
+# storage
+db|pwm.(0).cnf
+db|pwm.(0).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+|work2019|fpga|pwm100|stl|pwm.v
+57f3597d4ed8141994b9e9e1ce56c33d
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# user_parameter {
+en
+1
+PARAMETER_SIGNED_DEC
+DEF
+period
+00000000000001111010000100100000
+PARAMETER_UNSIGNED_BIN
+DEF
+pulse_width
+00000000000000000000000000000001
+PARAMETER_UNSIGNED_BIN
+DEF
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# complete
+
